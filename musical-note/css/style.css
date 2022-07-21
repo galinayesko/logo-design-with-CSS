@@ -1,0 +1,50 @@
+
+  body{	
+    background: #191919;
+    display: flex; /*yatay bar yapmak için*/
+    gap:21px;/*4 kutu arası boşluk için*/
+    justify-content: center; /*daireleri ortalamak için*/
+    margin: 0; 
+    margin-top:170px;
+  }
+  .note{
+    width:50px;
+    height: 40px;
+    background:#FE5F55;
+    border-radius: 50%;/* daire gönümü için yüksek yüzdeler kullanılır*/
+    position: relative;
+    
+  }
+  .a{
+    margin-left:-30px;
+  }
+  
+  .c{
+    background:#A64942;
+  }
+  
+  .up{
+    position: absolute;
+    width:10px;
+    height:100px;
+    background: inherit;/*daireden aşağıya sarkan uzun çicgi için*/
+    bottom: 50%; /*inherit ile aşağı sarkan çizgiyi yukarıya çevirmek için*/
+    right: 0; /*yukarıdan olan çubuğu sol taraftan sağ tarafa almak için*/
+  }
+  
+  .side {
+    background:inherit;
+    position:absolute;
+    top: -0px; /* negatif değer vererek yatay çizgi görünümü elde edildi.*/
+    right: -295%;
+    height:10px;
+    width:40px;
+  }
+  
+  .long {
+    width:80px;
+    right:-700%;
+  }
+  .down {
+    top:20;
+  }
